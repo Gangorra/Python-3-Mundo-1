@@ -1,6 +1,0 @@
-valor = float(input('Digite o preço do produto: R$'))
-vista = valor - (valor * 5 / 100)
-parcelado = valor + (valor * 8 / 100)
-print(f'O valor do produto é S${valor:.2f}!')
-print(f'A vista possui um desconto de 5%, ficando por S${vista:.2f}!')
-print(f'Parcelado, possui o juros de 8%, ficando por S${parcelado:.2f}!')

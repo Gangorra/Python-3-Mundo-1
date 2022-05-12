@@ -1,5 +1,5 @@
-# Ensinamentos-Python🐍
+# Cursos do Curso em Video!
 
-Curso de Python, abordando de forma simples e dinâmica comandos e exercícios de aprendizagem. Nessa metodologia, os ensinamentos são divididos em três categorias: Mundo 1, Mundo 2 e Mundo 3.
+Repositório de cursos ofertados pela plataforma Curso em Vídeo.
 
 Link da plataforma: [CursoemVídeo](https://www.cursoemvideo.com)

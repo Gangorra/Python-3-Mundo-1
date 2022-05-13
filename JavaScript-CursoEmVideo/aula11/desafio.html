@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio - Aula 11</title>
+    <style>
+        body {
+            background: rgb(98, 134, 43);
+            color: rgb(226, 218, 59);
+            font: normal 25px Ariel;
+        }
+        input {
+            width: 150px;
+            font: normal 20px Ariel;
+        }
+        h1 {
+            color: rgb(41, 41, 180);
+        }
+    </style>
+</head>
+<body>
+    <h1>Verificando País</h1>
+    <strong>Digite seu páis: </strong><input type="string" name="pais" id="pais">
+    <input type="button" value="Confirmar" onclick="verificar()">
+    <div id="resposta"></div>
+
+    <script>
+        function verificar() {
+            var pais = document.querySelector('input#pais')
+            var resposta = document.querySelector('div#resposta')
+            var localização = pais.value
+            resposta.innerHTML = `<p>Seu país é ${localização}</p>`
+
+            if (localização == `Brasil`) {
+                resposta.innerHTML += `<strong>Aí sim, HUEBR na área!!!</strong>`
+            } else {
+                resposta.innerHTML += `Você é um estrangeiro!`
+            }
+        }
+    </script>
+</body>
+</html>
